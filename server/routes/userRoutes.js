@@ -7,7 +7,7 @@ userRouter.post('/register', registerUser);
 
 // Route for user login
 userRouter.post('/login', loginUser);
-userRouter.post('/credits', userAuth, userCredits)
+userRouter.get('/credits', userAuth, userCredits)
 
 
 export default userRouter
